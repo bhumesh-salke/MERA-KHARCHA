@@ -130,4 +130,4 @@ const server = http.createServer((req, res) => {
     </script>
   `);
 });
-server.listen(3000, () => console.log('Server chal raha hai'));
+server.listen(process.env.PORT || 3000, () => console.log('Server chal raha hai'));
